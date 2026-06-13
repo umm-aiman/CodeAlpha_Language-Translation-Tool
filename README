@@ -1,6 +1,6 @@
 # 🌐 Language Translator
 
-![Python](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![API](https://img.shields.io/badge/MyMemory-API-orange?style=for-the-badge)
@@ -77,71 +77,3 @@ Or simply **drag and drop** `index.html` into any browser window and it works.
 ---
 
 ## ⚙️ How It Works
-
-```
-User types text
-      ↓
-Selects source + target language (or uses Auto Detect)
-      ↓
-Clicks Translate → or presses Ctrl + Enter
-      ↓
-App calls MyMemory API (free, no key needed)
-      ↓
-Translation appears in the right panel
-      ↓
-User can Copy / Speak / Listen
-```
-
----
-
-## 🛠️ Built With
-
-| Technology | Purpose |
-|---|---|
-| HTML5 | Structure |
-| CSS3 (Custom Properties) | Styling & theming |
-| Vanilla JavaScript | Logic & API calls |
-| [MyMemory API](https://mymemory.translated.net/) | Free translation engine |
-| Web Speech API | Browser-native text-to-speech |
-| Google Fonts (Inter) | Typography |
-
----
-
-## 🎨 Color Scheme
-
-| Role | Hex | Preview |
-|---|---|---|
-| Page background | `#a9fbfa` | Cyan mint |
-| Main card | `#ffffff` | White |
-| Buttons & selects | `#edb2d6` | Pink |
-| Text | `#000000` | Black |
-
----
-
-## 📁 Project Structure
-
-```
-language-translator/
-│
-└── index.html        # Everything in one file — HTML, CSS & JS
-└── README.md         # Project documentation
-```
-
----
-
-## 📌 Notes
-
-- The free MyMemory API allows up to **1,000 words/day** per IP address
-- Text-to-speech quality depends on your **browser and OS** language support
-- An **internet connection** is required for translation (API call)
-- All logic lives in a single `index.html` — no build tools, no npm, no config
-
----
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
----
-
-> Made with 💙 using plain HTML, CSS & JavaScript — no frameworks, no fuss.
